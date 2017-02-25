@@ -1,7 +1,7 @@
-name: rethinkdb_driver
+name: rethinkdb_driver2
 version: 2.3.1
 author: William Welch <billywelch@gmail.com>
-description: Dart driver for RethinkDB.
+description: Fork of William Welch's driver, with updated crypto dependencies.
 homepage: https://github.com/billysometimes/rethinkdb
 documentation: https://github.com/billysometimes/rethinkdb
 environment:
