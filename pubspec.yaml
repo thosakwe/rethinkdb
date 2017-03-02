@@ -1,4 +1,6 @@
-author: "William Welch <billywelch@gmail.com>"
+authors:
+- "William Welch <billywelch@gmail.com>"
+- Tobe O <thosakwe@gmail.com>
 description: "Fork of William Welch's driver, with updated crypto dependencies."
 documentation: "https://github.com/billysometimes/rethinkdb"
 homepage: "https://github.com/billysometimes/rethinkdb"
