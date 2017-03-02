@@ -2,7 +2,7 @@
 Fork of William Welch's driver, with updated crypto dependencies.
 
 [![version 2.3.1](https://img.shields.io/badge/pub-2.3.1-brightgreen.svg)](https://pub.dartlang.org/packages/rethinkdb)
-[![Build Status](https://travis-ci.org/thosakwe/rethinkdb.svg?branch=adding-unit-tests)](https://travis-ci.org/thosakwe/rethinkdb)
+[![Build Status](https://travis-ci.org/thosakwe/rethinkdb.svg)](https://travis-ci.org/thosakwe/rethinkdb)
 
 Dart RethinkDB Driver
 =========
