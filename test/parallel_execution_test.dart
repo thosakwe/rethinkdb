@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 import 'dart:async';
-import '../lib/rethinkdb_driver.dart';
+import '../lib/rethinkdb.dart';
 
 main() {
   test('ParallelExecution', () {

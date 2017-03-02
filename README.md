@@ -1,4 +1,7 @@
-[![Build Status](https://travis-ci.org/billysometimes/rethinkdb.svg?branch=adding-unit-tests)](https://travis-ci.org/billysometimes/rethinkdb)
+# rethinkdb
+Fork of William Welch's driver, with updated crypto dependencies.
+
+[![Build Status](https://travis-ci.org/thosakwe/rethinkdb.svg?branch=adding-unit-tests)](https://travis-ci.org/thosakwe/rethinkdb)
 
 Dart RethinkDB Driver
 =========
