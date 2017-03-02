@@ -1,4 +1,4 @@
-part of rethinkdb;
+part of rethinkdb_driver2;
 
 class Cursor extends Stream {
   Connection _conn;

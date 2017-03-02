@@ -1,4 +1,4 @@
-part of rethinkdb;
+part of rethinkdb_driver2;
 
 class Query extends RqlQuery {
   p.Query_QueryType _type;

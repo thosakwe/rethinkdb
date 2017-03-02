@@ -1,4 +1,4 @@
-library rethinkdb;
+library rethinkdb_driver2;
 
 import 'dart:async';
 import 'dart:io';
