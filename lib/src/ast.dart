@@ -218,7 +218,7 @@ class RqlQuery {
           formatOpts = {"time_format": "native"};
         }
         String timeFormat = formatOpts['time_format'];
-        if (timeFormat != null || timeFormat == 'native') {
+        if (timeFormat == null || timeFormat == 'native') {
           // Convert to native dart DateTime
           return _reqlTypeTimeToDatetime(obj);
         } else if (timeFormat != 'raw')

@@ -273,7 +273,7 @@ class Connection {
       if (response._data.length < 1) {
         value = null;
       }
-      value = query._recursivelyConvertPseudotypes(response._data.first, null);
+      value = query._recursivelyConvertPseudotypes(response._data.first, query._globalOptargs);
     } else if (response._type == p.Response_ResponseType.WAIT_COMPLETE.value) {
       //Noreply_wait response
       value = null;
@@ -461,7 +461,6 @@ class Connection {
     } else {
       globalOptargs['db'] = new DB(_db);
     }
-
     Query query =
         new Query(p.Query_QueryType.START, _getToken(), term, globalOptargs);
     _sendQueue.addLast(query);
